@@ -171,20 +171,4 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     journeyDeck.initialize();
 
   }
-
-
-  /* =========================
-     WHY CARDS
-     ========================= */
-
-  document
-    .querySelectorAll('.why article')
-    .forEach(card => {
-
-      card.addEventListener('click', () => {
-        card.classList.toggle('expanded');
-      });
-
-    });
-
 })();
